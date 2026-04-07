@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Type checking / linting / testing
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Memory service runtime data (lives in volumes, never committed)
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Local wiki clone (the service clones into a mount, never inside the repo)
+wiki/
+
+# Env files
+.env
+.env.local
