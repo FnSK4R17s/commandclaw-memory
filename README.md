@@ -103,11 +103,13 @@ curl http://localhost:8284/health
 | Repo | Purpose |
 |------|---------|
 | [commandclaw](https://github.com/FnSK4R17s/commandclaw) | Agent runtime, Telegram I/O, tracing |
+| [commandclaw-vault](https://github.com/FnSK4R17s/commandclaw-vault) | Vault template — cloned per agent workspace |
 | [commandclaw-mcp](https://github.com/FnSK4R17s/commandclaw-mcp) | MCP gateway — credential proxy with rotating keys |
-| [commandclaw-wiki](https://github.com/FnSK4R17s/commandclaw-wiki) | The shared knowledge base this service owns |
-| [commandclaw-skills](https://github.com/FnSK4R17s/commandclaw-skills) | Skills library |
-| [commandclaw-vault](https://github.com/FnSK4R17s/commandclaw-vault) | Per-agent vault template |
-| [commandclaw-observe](https://github.com/FnSK4R17s/commandclaw-observe) | Observability stack |
+| [commandclaw-gateway](https://github.com/FnSK4R17s/commandclaw-gateway) | LLM routing layer — provider credentials, virtual keys, budgets, rate limits, multi-provider fallback |
+| [commandclaw-skills](https://github.com/FnSK4R17s/commandclaw-skills) | Skills library — `npx skills add FnSK4R17s/commandclaw-skills` |
+| [commandclaw-wiki](https://github.com/FnSK4R17s/commandclaw-wiki) | LLM Wiki — persistent, compounding knowledge base per agent (Karpathy pattern) |
+| [commandclaw-observe](https://github.com/FnSK4R17s/commandclaw-observe) | Self-hosted observability — Langfuse tracing + Prometheus + Grafana, one compose |
+| [openclaw](https://github.com/FnSK4R17s/openclaw) | Original personal AI assistant — predecessor to CommandClaw |
 
 ## License
 
